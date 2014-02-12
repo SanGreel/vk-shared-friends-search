@@ -23,7 +23,7 @@ if(($u_id[0]!='')&&($u_id[1]!='')){
 			$vkf->view_users_info($users_info);//view information about selected users
 			
 		}else{		
-			print("<center><h2 class='error'>Общих друзей нету</h2></center>");
+			print("<center><h2 class='error'>Общих друзей нет</h2></center>");
 		}
 
 	}else{	
