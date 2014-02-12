@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #8f8f8f;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+#main{
+
+}
+
+#inp{
+  width: 700px;
+  display: block;
+  margin: 10% auto 5% auto;
+}
+
+#res{
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+
+input{
+  width: 200px;
+  
+  
+  font-size: 30px;
+  font-weight: normal;
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  color: #1b1a1a;
+  vertical-align: middle;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px; 
+      
+  vertical-align: middle;
+
+  height: 45px;
+  padding: 5px;
+
+  background-color: rgba(255,255,255,0.9);
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.085);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.085);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.085);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+     -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+       -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+          transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+input.right{
+	margin-left:272px;
+}
+
+#block{
+	width:667px;
+	float: left;
+	margin: 10px auto;
+	
+	max-height: 400px;
+	overflow-y: scroll;
+	overflow-x: none;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px 15px;
+	
+	background-color: rgba(255,255,255,0.8);
+	
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	
+	-moz-box-shadow: 0px 0px 3px 1px #5b5b5b;
+	-webkit-box-shadow: 0px 0px 3px 1px #5b5b5b;
+	box-shadow: 0px 0px 3px 1px #5b5b5b;
+	
+	opacity: 0.9;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 9);
+	filter: alpha(opacity = 9);
+}
+
+#info{
+	width:100px;
+	padding: 5px;
+	margin: 10px;
+	height: 150px;
+	float: left;
+	
+	cursor:pointer;
+}
+
+#info:hover{
+	background: #ffffff;
+}
+
+#ava img{
+	border: 0 none;
+}
+
+.error{
+	color: red;
+}
